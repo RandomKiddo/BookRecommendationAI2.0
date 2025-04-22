@@ -1,0 +1,10 @@
+# MacOS
+*.DS_Store
+
+# Temporary Holds
+*.png
+imgs/
+models/
+*.index
+checkpoint
+best_model.data-00000-of-00001
