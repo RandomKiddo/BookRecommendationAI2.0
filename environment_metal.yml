@@ -1,4 +1,4 @@
-name: bookv2
+name: bookv3
 channels:
   - apple
   - conda-forge
@@ -9,6 +9,7 @@ dependencies:
   - aiohappyeyeballs=2.4.0=py38hca03da5_0
   - aiohttp=3.10.5=py38h80987f9_0
   - aiosignal=1.2.0=pyhd3eb1b0_0
+  - annotated-types=0.6.0=py38hca03da5_0
   - anyio=4.2.0=py38hca03da5_0
   - appdirs=1.4.4=pyhd3eb1b0_0
   - appnope=0.1.2=py38hca03da5_1001
@@ -57,6 +58,7 @@ dependencies:
   - dill=0.3.8=py38hca03da5_0
   - exceptiongroup=1.2.0=py38hca03da5_0
   - executing=0.8.3=pyhd3eb1b0_0
+  - fastapi=0.112.2=py38hca03da5_0
   - filelock=3.13.1=py38hca03da5_0
   - fonttools=4.51.0=py38h80987f9_0
   - freetype=2.13.3=h47d26ad_0
@@ -189,6 +191,8 @@ dependencies:
   - pure_eval=0.2.2=pyhd3eb1b0_0
   - pyarrow=16.1.0=py38h46d7db6_0
   - pycparser=2.21=pyhd3eb1b0_0
+  - pydantic=2.8.2=py38hca03da5_0
+  - pydantic-core=2.20.1=py38hf0e4da2_0
   - pygments=2.15.1=py38hca03da5_1
   - pyparsing=3.0.9=py38hca03da5_0
   - pyqt=5.15.10=py38h313beb8_0
@@ -230,6 +234,7 @@ dependencies:
   - soupsieve=2.5=py38hca03da5_0
   - sqlite=3.45.3=h80987f9_0
   - stack_data=0.2.0=pyhd3eb1b0_0
+  - starlette=0.38.2=py38hca03da5_0
   - sympy=1.13.3=py38hca03da5_0
   - tenacity=9.0.0=py38hca03da5_0
   - tensorflow-deps=2.9.0=0
@@ -296,4 +301,4 @@ dependencies:
       - typing-extensions==4.5.0
       - werkzeug==3.0.6
       - wrapt==1.17.2
-prefix: /opt/miniconda3/envs/bookv2
+prefix: /opt/miniconda3/envs/bookv3
