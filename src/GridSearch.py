@@ -100,12 +100,7 @@ def build_model(weight_decay, learning_rate=1e-5, num_labels=6):
     return model
 
 weight_decay_values = sorted([
-    0.0,
-    0.001, 0.005,
-    0.01, 0.015, 0.02,
-    0.025, 0.03, 0.035, 0.04, 0.045, 0.05,
-    0.06, 0.07, 0.08, 0.09, 0.1,
-    0.125, 0.15, 0.175, 0.2
+    0.0, 1e-5, 5e-5, 1e-4, 5e-4, 1e-3, 5e-3, 1e-2, 5e-2, 1e-1
 ])
 results = {}
 
@@ -120,7 +115,7 @@ for wd in weight_decay_values:
         callbacks=[
             tf.keras.callbacks.EarlyStopping(monitor='val_loss', patience=2, restore_best_weights=True)
         ],
-        verbose=0
+        verbose=2
     )
 
     val_acc = max(history.history['val_accuracy'])
