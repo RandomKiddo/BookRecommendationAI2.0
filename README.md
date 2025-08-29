@@ -19,9 +19,7 @@ ___
 
 ### Project Pipeline
 
-<div style="padding: 20px; background-color: white; display: inline-block;">
-  <img src="Pipeline.png" alt="Project Pipeline Image" />
-</div>
+![Project Pipeline Image](pipeline.png)
 
 ___
 
