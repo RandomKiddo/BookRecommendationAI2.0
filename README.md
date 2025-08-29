@@ -19,7 +19,7 @@ ___
 
 ### Project Pipeline
 
-![Project Pipeline File](Pipeline.png)
+<img style="float: left; padding: 10px 10px 10px 10px;" src="Pipelin.png" alt="Project Pipeline Image"/>
 
 ___
 
