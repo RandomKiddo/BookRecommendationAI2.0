@@ -19,7 +19,9 @@ ___
 
 ### Project Pipeline
 
-<img style="float: left; padding: 10px 10px 10px 10px;" src="Pipeline.png" alt="Project Pipeline Image"/>
+<div style="padding: 20px; background-color: white; display: inline-block;">
+  <img src="Pipeline.png" alt="Project Pipeline Image" />
+</div>
 
 ___
 
