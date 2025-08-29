@@ -19,7 +19,7 @@ ___
 
 ### Project Pipeline
 
-![Project Pipeline Image](pipeline.png)
+![Project Pipeline Image](pipeline_img.png)
 
 ___
 
